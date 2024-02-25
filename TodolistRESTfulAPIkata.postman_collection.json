@@ -1,0 +1,165 @@
+{
+	"info": {
+		"_postman_id": "828bb255-00a6-46a9-8921-b425af30d1bd",
+		"name": "TodolistRESTfulAPIkata",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "20188441"
+	},
+	"item": [
+		{
+			"name": "get todos",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3005/todos",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3005",
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "post todos",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"洗澡5\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3005/todos",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3005",
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete todos",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"洗澡3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3005/todos",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3005",
+					"path": [
+						"todos"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete a todo",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"洗澡3\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3005/todos/e974d38c-874c-4fbd-a137-6f73ce5c7c19",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3005",
+					"path": [
+						"todos",
+						"e974d38c-874c-4fbd-a137-6f73ce5c7c19"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "patch a todo",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"睡覺QQ\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "127.0.0.1:3005/todos/d2013342-77f0-4f56-905c-e107967d983b",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "3005",
+					"path": [
+						"todos",
+						"d2013342-77f0-4f56-905c-e107967d983b"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
